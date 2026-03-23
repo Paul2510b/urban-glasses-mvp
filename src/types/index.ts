@@ -35,7 +35,7 @@ export interface FAQItem {
 export interface Benefit {
   id: string;
   number: string;
-  color: 'gold' | 'silver';
+  color: string;
   title: string;
   description: string;
   icon: string;
@@ -44,7 +44,7 @@ export interface Benefit {
 export interface ProcessStep {
   id: string;
   number: string;
-  color: 'gold' | 'silver';
+  color: string;
   title: string;
   description: string;
   icon: string;
